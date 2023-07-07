@@ -5,7 +5,9 @@
     --cor_botao:#099f90;
     --cor_input:#94cfcd;
 }
-
+*{
+    box-sizing: border-box;
+}
 body{
     height: 100vh;
     background-color:var(--cor1);
@@ -18,9 +20,8 @@ body{
 main{
     background-color: var(--brancoPadrao);
     width: 67vw;
-    /* margin: auto; */
-    border-radius: 15px;
-    box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.381);
+    border-radius: 20px;
+    box-shadow: 0px 0px 13px 1px rgba(0, 0, 0, 0.381);
 
 }
 main h1{
@@ -30,11 +31,12 @@ main h1{
     font-weight: bolder;
 }
 main p{
+    line-height: 17px;
     padding: 10px;
     font-size: .8em;
 }
 form{
-    padding: 10px;
+    padding: 0px 5px 51px 5px;
 }
 .informacoes{
     background-color:var(--cor1);
@@ -49,7 +51,7 @@ form{
 input{
     width: 100%;
     padding: 11px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     background-color:var(--cor_input);
 }
