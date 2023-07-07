@@ -1,0 +1,71 @@
+:root{
+    --cor1:#025373;
+    --brancoPadrao:#ffff;
+    --font_padrao:Arial, Helvetica, sans-serif;
+    --cor_botao:#099f90;
+    --cor_input:#94cfcd;
+}
+
+body{
+    height: 100vh;
+    background-color:var(--cor1);
+    /* margin-top: 20%; */
+    font-family: var(--font_padrao);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: var(--brancoPadrao);
+    width: 67vw;
+    /* margin: auto; */
+    border-radius: 15px;
+    box-shadow: 2px 2px 13px 1px rgba(0, 0, 0, 0.381);
+
+}
+main h1{
+    text-align: center;
+    padding:10px;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+main p{
+    padding: 10px;
+    font-size: .8em;
+}
+form{
+    padding: 10px;
+}
+.informacoes{
+    background-color:var(--cor1);
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 1px;
+    
+}
+input{
+    width: 100%;
+    padding: 11px;
+    border-radius: 5px;
+    border: none;
+    background-color:var(--cor_input);
+}
+#botao{
+    background-color: var(--cor_botao);
+    color: white;
+    margin-bottom: 10px;
+}
+#botao2{
+    background-color: white;
+    border: 1px solid var(--cor_botao);
+}
+#imagem{
+    height: 200px;
+    background-color: white;
+    background: url('../imagens/login.jpg') center center no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0px 0px;
+}
