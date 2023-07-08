@@ -2,97 +2,39 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
     
+    /*TELA DE TABLET*/
     body{
-        background-image: linear-gradient(to bottom, #025373,#04D9C4);
+        background-image: linear-gradient(to bottom,#025373,#04D9C4);
     }
     main{
-        height:30vh ;
-        width:80vw;
-        display: flex;
+        width: 80vw;
+        height: 300px;
+        flex-direction: row;
     }
     main h1{
-        padding-top: 5%;
-    }
-    main p{
-        line-height: normal;
+        padding: 5px;
     }
     #imagem{
-        width: 37%;
         height: 100%;
+        width: 40%;
         border-radius: 15px 0px 0px 15px;
     }
-    #segundo{
-        display: flex;
-        flex-direction: column;
-    }
-    form{
-        padding: 0px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    form div{
-        align-self: center;
-        width: 85%;
-    }
-    input{
-        width: 90%;
-    }
-    #botoes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #botoes input{
-        width: 100%;
-    }
 }
-@media screen and (min-width:992px) {
+ @media screen and (min-width:992px){
     body{
-        background-image: linear-gradient(to bottom, #025373,#04D9C4);
+        background-image: linear-gradient(to bottom,#025373,#04D9C4);
     }
     main{
-        height:45vh ;
-        width:80vw;
-        display: flex;
         flex-direction: row-reverse;
+        width: 60vw;
     }
     main h1{
-        padding: 30px;
-    }
-    main p{
-        line-height: normal;
+        padding: 9px;
     }
     #imagem{
-        width: 50%;
-        height: 100%;
+        height: 21em;
+        width: 20em;
         border-radius: 0px 15px 15px 0px;
     }
-    #segundo{
-        display: flex;
-        flex-direction: column;
-    }
-    form{
-        padding: 0px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-    form div{
-        align-self: center;
-        width: 85%;
-    }
-    input{
-        width: 90%;
-    }
-    #botoes{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    #botoes input{
-        width: 100%;
-    }
-}
+ }
+    
