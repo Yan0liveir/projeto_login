@@ -3,6 +3,7 @@
 @media screen and (min-width:768px) and (max-width:992px) {
     
     /*TELA DE TABLET*/
+
     body{
         background-image: linear-gradient(to bottom,#025373,#04D9C4);
     }
@@ -21,19 +22,22 @@
     }
 }
  @media screen and (min-width:992px){
+
+    /*GRANDES TELAS*/
+
     body{
         background-image: linear-gradient(to bottom,#025373,#04D9C4);
     }
     main{
         flex-direction: row-reverse;
-        width: 60vw;
+        width: 1000px;
     }
     main h1{
         padding: 9px;
     }
     #imagem{
         height: 21em;
-        width: 20em;
+        width: 48em;
         border-radius: 0px 15px 15px 0px;
     }
  }
