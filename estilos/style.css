@@ -74,10 +74,27 @@ input{
 #botao{
     background-color: var(--cor_botao);
     margin-bottom: 10px;
+    cursor: pointer;
 }
-#botao2{
-    background-color: white;
+#botao:hover{
+    background-color:#32b8abb0 ;
+}
+#botoes a{
     border: 1px solid var(--cor_botao);
+    padding: 10px;
+    display: block;
+    width: 100%;
+    border-radius:10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a:hover{
+    background-color:#32b8abb0 ;
 }
 #imagem{
     height: 200px;
